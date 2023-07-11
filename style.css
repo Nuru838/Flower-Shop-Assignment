@@ -37,8 +37,9 @@
 
 .banner-image {
     width: 500px;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-right: 150px;
+    height: 700px;
 }
 
 .btn {
@@ -115,7 +116,7 @@
     margin-top: 20px;
 }
 
-/* feature style  */
+/* Support style  */
 
 .support-section {
     display: flex;
@@ -149,6 +150,25 @@
     height: 88px;
     margin: 0 120px;
     margin-top: 70px;
+}
+/* Idea section  */
+.idea-section{
+    height: 550px;
+    background-color: palevioletred;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.idea-description{
+    font-size: 40px;
+    color: white;
+    font-style: italic;
+    padding-right: 150px;
+}
+.idea-image{
+    height: 500px;
+    padding-left: 150px;
 }
 
 /* Hot deal sectin */
