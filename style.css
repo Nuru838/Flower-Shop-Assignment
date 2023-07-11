@@ -286,3 +286,38 @@
     margin-right: 5px;
     margin-left: 285px;
 }
+
+/* Footer section style  */
+.footer-section {
+    background: #111010;
+    height: 450px;
+    text-align: center;
+}
+
+.footer-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 100px;
+}
+
+.shop-content {
+    color: white;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+.condition {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 30px;
+}
