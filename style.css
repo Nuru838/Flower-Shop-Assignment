@@ -175,17 +175,65 @@
     margin-top: 25px;
     margin-bottom: 20px;
 }
-.hotdeal{
+
+.hotdeal {
     text-align: center;
     margin-left: 200px;
 }
-.off-design{
+
+.off-design {
     color: #E55473;
 }
-.hotdeal-img{
+
+.hotdeal-img {
     margin-right: 200px;
 }
 
 /* Instagram style  */
 
+.flower-rectangle-1 {
+    width: 342px;
+    height: 396px;
+    background: rgba(167, 33, 98, 0.15);
+    background: url('./image/Flower\ 01.png'), lightgray 50% / cover no-repeat;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    margin: 50px;
+}
 
+.flower-rectangle-2 {
+    width: 342px;
+    height: 396px;
+    background: rgba(167, 33, 98, 0.15);
+    background: url('./image/Rectangle\ 4.png'), lightgray 50% / cover no-repeat;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    margin: 50px;
+}
+
+.flower-rectangle-3 {
+    width: 342px;
+    height: 396px;
+    background: rgba(167, 33, 98, 0.15);
+    background: url('./image/Rectangle\ 5.png'), lightgray 50% / cover no-repeat;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    margin: 50px;
+}
+
+.flower-rectangle-4 {
+    width: 342px;
+    height: 396px;
+    background: rgba(167, 33, 98, 0.15);
+    background: url('./image/Rectangle\ 6.png'), lightgray 50% / cover no-repeat;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    margin: 50px;
+}
+.flower-rectangle{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
