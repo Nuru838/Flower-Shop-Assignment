@@ -113,15 +113,17 @@
 .flower-area-title {
     text-align: center;
     text-decoration: underline;
-    margin-top: 20px;
+    font-size: 30px;
+    color: #272727;
+    font-weight: 700;
+    line-height: 35px;
 }
 
 /* Support style  */
 
 .support-section {
     display: flex;
-    justify-content: center;
-    text-align: center;
+    justify-content: space-around;
     background-color: #b3afaf;
     width: 1050px;
     height: 500px;
@@ -132,16 +134,15 @@
 
 .support {
     height: 250px;
-    height: 90px;
-    width: 90px;
+    width: 300px;
     margin: 0 120px;
     margin-top: 70px;
 }
 
 .support-title {
     color: rgba(39, 39, 39, 0.80);
-    text-align: justify;
-    font-size: 24px;
+    text-align: center;
+    font-size: 25px;
     line-height: 35px;
 }
 
@@ -151,8 +152,9 @@
     margin: 0 120px;
     margin-top: 70px;
 }
+
 /* Idea section  */
-.idea-section{
+.idea-section {
     height: 550px;
     background-color: palevioletred;
     display: flex;
@@ -160,15 +162,23 @@
     align-items: center;
     flex-direction: row-reverse;
 }
-.idea-description{
-    font-size: 40px;
+
+.idea-description {
+    font-size: 50px;
     color: white;
     font-style: italic;
-    padding-right: 150px;
+    padding-right: 200px;
 }
-.idea-image{
-    height: 500px;
+
+.idea-image {
+    height: 580px;
     padding-left: 150px;
+}
+
+.idea-name {
+    font-size: 20px;
+    margin-top: 20px;
+    font-style: none;
 }
 
 /* Hot deal sectin */
@@ -289,7 +299,7 @@
 }
 
 .latest-deal-description {
-    color: rgba(39, 39, 39, 0.60);
+    color: rgba(39, 39, 39, 0.60), lightgray 50% / cover no-repeat;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
