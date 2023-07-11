@@ -51,6 +51,141 @@
 }
 
 /* Feature style  */
+.feature-content {
+    text-align: center;
+    margin-top: 130px;
+}
 
+.feature-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+}
+
+.feature-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+.flower-area {
+    display: flex;
+    justify-content: center;
+}
+
+.flower-area-1 {
+    width: 464px;
+    height: 550px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    background: url('./image/pngwing\ 6.png'), lightgray 50% / cover no-repeat;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    margin: 50px;
+}
+
+.flower-area-2 {
+    width: 464px;
+    height: 550px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    background: url('./image/pngwing\ 5.png'), lightgray 50% / cover no-repeat;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    margin: 50px;
+}
+
+.flower-area-3 {
+    width: 464px;
+    height: 550px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    background: url('./image/pngwing\ 7.png'), lightgray 50% / cover no-repeat;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    margin: 50px;
+}
+
+.flower-area-title {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+/* feature style  */
+
+.support-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #b3afaf;
+    width: 1050px;
+    height: 500px;
+    margin: auto;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.support {
+    height: 250px;
+    height: 90px;
+    width: 90px;
+    margin: 0 120px;
+    margin-top: 70px;
+}
+
+.support-title {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: justify;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.support>img {
+    width: 88px;
+    height: 88px;
+    margin: 0 120px;
+    margin-top: 70px;
+}
+
+/* Hot deal sectin */
+.hotdeal-section {
+    margin-top: 70px;
+    height: 550px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hotdeal-title {
+    color: #272727;
+    font-size: 40px;
+}
+
+.hotdeal-descriptin {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.hotdeal{
+    text-align: center;
+    margin-left: 200px;
+}
+.off-design{
+    color: #E55473;
+}
+.hotdeal-img{
+    margin-right: 200px;
+}
+
+/* Instagram style  */
 
 
